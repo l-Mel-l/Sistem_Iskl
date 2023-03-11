@@ -13,13 +13,13 @@ public class СортировкаУл_Лаб6 {
         for (int i = 0; i < n; i++) {
             mass[i] = sc.nextInt();
         }
-        compsort(mass);
+        combsort(mass);
         for(int i = 0;i<n;i++){
             System.out.println(mass[i]);}
     }
         //Сортировочка
 
-    public static void compsort(int[]values){
+    public static void combsort(int[]values){
             double factor = 1.247;
             int step = values.length-1;
             while (step>=1){
